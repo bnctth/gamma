@@ -7,10 +7,6 @@ analysis {
 	dataflow-coverage {
 		coverage-criterion : all-use
 	}
-	constraint : {
-		minimum-orchestrating-period : SCHEDULE_CONSTRAINT ms
-		maximum-orchestrating-period : SCHEDULE_CONSTRAINT ms
-	}
 	optimize : true
 	property-file : "System/Cascade/Mission.gpd"
 }
